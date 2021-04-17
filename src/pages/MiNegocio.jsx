@@ -105,7 +105,7 @@ const MiNegocio = () => {
 
             <div>
                 <section className=" cont_table col-md-12 d-flex flex-column">
-                    <h3 className="title"> Tus ventas de Septiembre</h3>
+                    <div className="title"> Tus ventas de Septiembre</div>
                     <div>
                         <Tabla data={paymentsToShow} />     
                     </div>

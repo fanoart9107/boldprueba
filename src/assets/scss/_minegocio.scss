@@ -106,7 +106,7 @@
     -moz-border-radius: 20px;
     border-radius: 20px;
     padding: 0;
-    h3.title{
+    .title{
         background: linear-gradient(90deg, $blue -60%, $red 100%);
         margin: 0;
         padding: 15px 20px;
@@ -125,11 +125,11 @@
             li{
                 list-style: none;
                 margin: 0 0 10px;
-                h3{
+                h4{
                     font-size: 20px;
                     color: $blue;
                 }
-                p{
+                span{
                     font-size: 14px;
 
                 }
@@ -141,7 +141,7 @@
         width: 100%;
         text-align: left;
         
-        h3{
+        .text{
             font-size: 12px;
             font-weight: 400;
             span{

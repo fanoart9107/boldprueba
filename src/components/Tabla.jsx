@@ -33,7 +33,7 @@ const Tabla = (props) => {
                                 <td>{payData.date}</td>
                                 <td>{payData.creditcard}</td>
                                 <td>{payData.idpayment}</td>
-                                <td>{payData.amount} <br />{payCheckAmount(payData.exitoso)} </td>
+                                <td>{payData.amount}  {payCheckAmount(payData.exitoso)} </td>
                             </tr>
                             
                         )}
@@ -46,31 +46,31 @@ const Tabla = (props) => {
             
 
             <div className=" tabla_mobile d-md-none ">
-            {props.data.map((payData) =>
-                <ul key={payData.id}>
-                    <li>
-                        <h4>Transacción</h4>
-                        <p>{payCheck(payData.exitoso)}</p>
-                    </li>
-                    <li>
-                        <h4>Fecha y hora</h4>
-                        <p>{payData.date}</p>
-                    </li>
-                    <li>
-                        <h4>Metodo de pago</h4>
-                        <p>{payData.creditcard}</p>
-                    </li>
-                    <li>
-                        <h4>ID TRansaccion Bold</h4>
-                        <p>{payData.idpayment}</p>
-                    </li>
-                    <li>
-                        <h4>Monto</h4>
-                        <p>{payData.amount} <br /> {payCheckAmount(payData.exitoso)} </p>
-                    </li>
-                </ul>
-                
-            )}
+                {props.data.map((payData) =>
+                    <ul key={payData.id}>
+                        <li>
+                            <h4>Transacción</h4>
+                            <span>{payCheck(payData.exitoso)}</span>
+                        </li>
+                        <li>
+                            <h4>Fecha y hora</h4>
+                            <span>{payData.date}</span>
+                        </li>
+                        <li>
+                            <h4>Metodo de pago</h4>
+                            <span>{payData.creditcard}</span>
+                        </li>
+                        <li>
+                            <h4>ID TRansaccion Bold</h4>
+                            <span>{payData.idpayment}</span>
+                        </li>
+                        <li>
+                            <h4>Monto</h4>
+                            <span>{payData.amount} <br /> {payCheckAmount(payData.exitoso)} </span>
+                        </li>
+                    </ul>
+                    
+                )}
             </div>
 
             
