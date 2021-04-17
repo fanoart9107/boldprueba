@@ -1,0 +1,174 @@
+.cont_totalventas{
+    background-color: #ffffff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 30px 0;
+    padding: 0 0 30px 0;
+    .title{
+        background: $blue;
+        background: linear-gradient(90deg, $blue -60%, $red 100%);
+        color: $white;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .total{
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
+        margin: 30px 0 10px 0;
+        background: -webkit-linear-gradient(0deg, $blue -60%, $red 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .mes{
+        font-size: 14px;
+        color: $blue;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
+
+.cont_filters {
+    margin: 30px 0;
+    .cont_btn1{
+        background-color: $white;
+        margin: 0 0  10px;
+        padding: 3px 20px 3px 20px;
+        .btn{
+            margin: 0 10px;
+        }
+    }
+
+    .cont_btn2{
+        .btn2{
+            width: 40%;
+        }
+        .tootip{
+            position: relative;
+            &:hover{
+                .tooltiptext{
+                    visibility: visible;
+                    opacity: 1;
+                }
+                
+            }
+            .tooltiptext {
+                visibility: hidden;
+                position: absolute;
+                width: 100%;
+                top: 100%;
+                left: 0;
+                background-color: $white ;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                z-index: 9999;
+                
+                padding: 20px 20px 10px 20px;
+                .cont_check{
+                    float: left;
+                    width: 100%;
+                    margin: 0  0 10px;
+                    .checkbox{
+                        float: left;
+                    }
+                    label{
+                        float: left;
+                        font-size: 14px;
+                        padding-left: 10px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+
+              }
+              
+        }
+    }
+    
+}
+
+.cont_table{
+    background-color: #ffffff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 0;
+    h3.title{
+        background: linear-gradient(90deg, $blue -60%, $red 100%);
+        margin: 0;
+        padding: 15px 20px;
+        color: $white;
+        -webkit-border-top-left-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -moz-border-radius-topleft: 20px;
+        -moz-border-radius-topright: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .tabla_mobile{
+        ul{
+            padding: 10px;
+            border-bottom: 1px solid $grayTwo ;
+            li{
+                list-style: none;
+                margin: 0 0 10px;
+                h3{
+                    font-size: 20px;
+                    color: $blue;
+                }
+                p{
+                    font-size: 14px;
+
+                }
+            }
+        }
+        
+    }
+    .table{
+        width: 100%;
+        text-align: left;
+        
+        h3{
+            font-size: 12px;
+            font-weight: 400;
+            span{
+                color: red;
+            }
+        }  
+        thead{
+            padding: 10px;
+            border-bottom: 1px solid $grayTwo ;
+            font-size: 18px;
+            tr{
+                
+                th{
+                    font-weight: 500;
+                      
+                }
+            }
+                  
+        }
+        tbody{
+            font-size: 14px;
+            tr{
+                border-left: 5px solid $blue;
+                box-shadow: inset -5px 0 0  $grayTwo;
+                // border-right: 5px solid $grayTwo;
+            }
+        }
+    }
+
+}

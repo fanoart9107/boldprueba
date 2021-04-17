@@ -1,0 +1,45 @@
+{
+    "payments": [
+        {
+            "id": 1,
+            "exitoso": true,
+            "date": "2021-04-20 14:35:50",
+            "creditcard": 123445712341234,
+            "idpayment": "ASDF12345SHW3",
+            "amount": 25000
+        },
+        {
+            "id": 2,
+            "exitoso": false,
+            "date": "2021-04-16 14:35:50",
+            "creditcard": 123445712341234,
+            "idpayment": "ASDF12345SHW3",
+            "amount": 25000
+        },
+        {
+            "id": 3,
+            "exitoso": false,
+            "date": "2021-04-15 14:35:50",
+            "creditcard": 123445712341234,
+            "idpayment": "ASDF12345SHW3",
+            "amount": 25000
+        },
+        {
+            "id": 3,
+            "exitoso": false,
+            "date": "2021-03-15 14:35:50",
+            "creditcard": 123445712341234,
+            "idpayment": "ASDF12345SHW3",
+            "amount": 25000
+        },
+
+        {
+            "id": 4,
+            "exitoso": true,
+            "date": "2021-04-17 9:35:50",
+            "creditcard": 123445712341234,
+            "idpayment": "ASDF12345SHW3",
+            "amount": 25000
+        }
+    ]
+}
