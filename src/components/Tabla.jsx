@@ -66,7 +66,7 @@ const Tabla = (props) => {
                     </li>
                     <li>
                         <h4>Monto</h4>
-                        <p>{payData.amount} <br />{payCheckAmount(payData.exitoso)} </p>
+                        <p>{payData.amount} <br /> {payCheckAmount(payData.exitoso)} </p>
                     </li>
                 </ul>
                 
